@@ -73,12 +73,12 @@ lower-than-expected life expectancy, reflecting Soviet-era healthcare legacy and
 Global average life expectancy rose steadily from 66.8 in 2007 to 71.6 in 2022 (a gain of 4.8 years)
 A 2-year rolling average confirms no significant volatility over the period, suggesting consistent and stable global health improvements.
 
-6. **Factors Contributing to Low Life Expectancy**
-Among countries with average life expectancy below 55, three factors consistently stand out:
+ 6. **Factors Contributing to Low Life Expectancy**
+Among countries with average life expectancy below 55...three factors consistently stand out:
 
-  High adult mortality
-  Low GDP
-  High measles cases (particularly in high-population countries like Nigeria)
+- High adult mortality
+- Low GDP
+- High measles cases (particularly in high-population countries like Nigeria)
 
   Adult mortality is the single most consistent factor separating low and high performing countries
   Top performing countries share three characteristics — low adult mortality, high GDP, and high healthcare expenditure, 
