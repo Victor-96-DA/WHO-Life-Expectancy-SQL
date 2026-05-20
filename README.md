@@ -71,13 +71,13 @@ A 2-year rolling average confirms no significant volatility over the period, sug
 6. **Factors Contributing to Low Life Expectancy**
 Among countries with average life expectancy below 55, three factors consistently stand out:
 
-High adult mortality
-Low GDP
-High measles cases (particularly in high-population countries like Nigeria)
+  High adult mortality
+  Low GDP
+  High measles cases (particularly in high-population countries like Nigeria)
 
-Adult mortality is the single most consistent factor separating low and high performing countries
-Top performing countries share three characteristics — low adult mortality, high GDP, and high healthcare expenditure, 
-with HIV/AIDS at 0.1 across all top performers
+  Adult mortality is the single most consistent factor separating low and high performing countries
+  Top performing countries share three characteristics — low adult mortality, high GDP, and high healthcare expenditure, 
+  with HIV/AIDS at 0.1 across all top performers
 
 
 #### Recommendations
