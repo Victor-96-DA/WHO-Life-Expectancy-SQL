@@ -1,24 +1,24 @@
-## World Life Expectancy Analysis (WHO) | MySQL
-### Overview
+### World Life Expectancy Analysis (WHO) | MySQL
+#### Overview
 This project uses MySQL to clean and perform an Exploratory Data Analysis (EDA) on 
 the WHO World Life Expectancy dataset sourced from Kaggle, covering 193 countries across 15 years (2007–2022). 
 The goal is to uncover the key factors driving high and low life expectancy globally and 
 generate data-driven recommendations for improving health outcomes.
 
-### Tools Used
+#### Tools Used
 
 **MySQL Workbench**
 
-## Dataset
+### Dataset
 DetailInfoSourceKaggle — WHO World Life Expectancy 
 DatasetCoverage193 countriesPeriod2007 – 2022Records2,938 (after cleaning)
 
-### Project Structure
+#### Project Structure
 **FileDescription**
 world_life_expectancy_cleaning.sqlData cleaning script 
 world_life_expectancy_EDA.sqlExploratory Data Analysis script
 
-### Part 1: Data Cleaning
+#### Part 1: Data Cleaning
 **Step 1 — Removed Duplicates**
 Identified and removed 3 duplicate rows (Ireland 2022, Senegal 2009, Zimbabwe 2019) using 
 the ROW_NUMBER() window function and a subquery to isolate duplicate row IDs before deletion.
@@ -39,7 +39,7 @@ This decision was validated during EDA where queries with and without NULL filte
 confirming the cleaning was thorough and effective.
 
 
-### Part 2: Exploratory Data Analysis
+#### Part 2: Exploratory Data Analysis
 1. **Country Life Expectancy Trends**
 The top 10 most improved countries are all developing nations, suggesting that 
 foundational healthcare investments yield the greatest life expectancy gains.
@@ -80,7 +80,7 @@ Top performing countries share three characteristics — low adult mortality, hi
 with HIV/AIDS at 0.1 across all top performers
 
 
-### Recommendations
+#### Recommendations
 1. **Economic Development**
 Governments should prioritize economic growth and equitable income distribution. The strong correlation between GDP and 
 life expectancy suggests that improving citizens' standard of living directly translates to longer, healthier lives.
@@ -95,24 +95,15 @@ life expectancy in the 70s and 80s, confirming education as equally important as
 Conflict directly destroys life expectancy gains. Syria, Yemen, Iraq, and Libya all recorded declining life expectancy directly linked to war and instability. International diplomacy and peacekeeping efforts are therefore as critical as health policy in improving global life expectancy outcomes.
 
 ### SQL Concepts Demonstrated
-Data Cleaning (UPDATE, DELETE, self JOIN)
-Aggregate Functions (AVG, COUNT, MIN, MAX)
-Window Functions (ROW_NUMBER, rolling average with AVG OVER)
-Subqueries and CTEs (WITH)
-CASE statements and conditional aggregation
-HAVING vs WHERE
-GROUP BY and ORDER BY
-
-## SQL Concepts Demonstrated
-### DDL - Data Definition Language
+#### DDL - Data Definition Language
 - **CREATE DATABASE** - created a new database for this project
 - **USE DATABASE** - activating the newly created database
 - **CREATE TABLE** -imported the WHO dataset as a table
 
-### DML — Data Manipulation Language
+#### DML — Data Manipulation Language
 - **UPDATE, DELETE**
 
-### DQL — Data Query Language
+#### DQL — Data Query Language
 - **SELECT, WHERE, GROUP BY, ORDER BY, HAVING**
 - **JOINs** (self JOIN)
 - **Subqueries and CTEs** (WITH)
