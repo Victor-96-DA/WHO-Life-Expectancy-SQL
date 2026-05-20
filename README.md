@@ -1,4 +1,4 @@
-World Life Expectancy Analysis (WHO) | MySQL
+# World Life Expectancy Analysis (WHO) | MySQL
 Overview
 This project uses MySQL to clean and perform an Exploratory Data Analysis (EDA) on the WHO World Life Expectancy dataset sourced from Kaggle, covering 193 countries across 15 years (2007–2022). The goal is to uncover the key factors driving high and low life expectancy globally and generate data-driven recommendations for improving health outcomes.
 
