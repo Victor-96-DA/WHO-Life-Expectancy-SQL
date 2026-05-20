@@ -1,4 +1,4 @@
-### World Life Expectancy Analysis (WHO) | MySQL
+## World Life Expectancy Analysis (WHO) | MySQL
 #### Overview
 This project uses MySQL to clean and perform an Exploratory Data Analysis (EDA) on 
 the WHO World Life Expectancy dataset sourced from Kaggle, covering 193 countries across 15 years (2007–2022). 
@@ -10,13 +10,18 @@ generate data-driven recommendations for improving health outcomes.
 **MySQL Workbench**
 
 ### Dataset
-DetailInfoSourceKaggle — WHO World Life Expectancy 
-DatasetCoverage193 countriesPeriod2007 – 2022Records2,938 (after cleaning)
+| Detail | Info |
+|--------|------|
+| Source | Kaggle — WHO World Life Expectancy Dataset |
+| Coverage | 193 countries |
+| Period | 2007 – 2022 |
+| Records | 2,938 (after cleaning) |
 
 #### Project Structure
-**FileDescription**
-world_life_expectancy_cleaning.sqlData cleaning script 
-world_life_expectancy_EDA.sqlExploratory Data Analysis script
+| File | Description |
+|------|-------------|
+| `world_life_expectancy_cleaning.sql` | Data cleaning script |
+| `world_life_expectancy_EDA.sql` | Exploratory Data Analysis script |
 
 #### Part 1: Data Cleaning
 **Step 1 — Removed Duplicates**
@@ -47,7 +52,7 @@ foundational healthcare investments yield the greatest life expectancy gains.
 Conflict-affected nations like Syria, Yemen, Iraq, and Libya recorded the steepest declines,
 confirming war as a major driver of life expectancy loss.
 
-3. **GDP vs Life Expectancy**
+2. **GDP vs Life Expectancy**
 The analysis shows a strong positive correlation between GDP and life expectancy
 Countries with average GDP above 25,000 consistently recorded life expectancy in the 70s and 80s
 Countries with average GDP below 1,500 recorded life expectancy in the 40s to 60s (a gap of up to 30 years)
@@ -64,7 +69,7 @@ Countries below 8 years of schooling averaged between 48–65 years (a gap of up
 Eastern European nations (Ukraine, Lithuania, Estonia) show relatively high schooling years but
 lower-than-expected life expectancy, reflecting Soviet-era healthcare legacy and economic instability.
 
-6. **Global Life Expectancy Trend**
+5. **Global Life Expectancy Trend**
 Global average life expectancy rose steadily from 66.8 in 2007 to 71.6 in 2022 (a gain of 4.8 years)
 A 2-year rolling average confirms no significant volatility over the period, suggesting consistent and stable global health improvements.
 
