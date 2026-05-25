@@ -112,7 +112,7 @@ Conflict directly destroys life expectancy gains. Syria, Yemen, Iraq, and Libya 
 - **CASE statements and conditional aggregation**
 
 #### Connect With Me
-**Gmail:** reachvictorola@gmail.com
+**Gmail:** [reachvictorola@gmail.com](mailto:reachvictorola@gmail.com)
 
 #### Author
 **Victor Olatunji** 
